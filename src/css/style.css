@@ -1,5 +1,6 @@
 h2{
     font-size: 30px;
+    margin-bottom: 8px;
 }
 p{
     font-size: 17px;
@@ -7,25 +8,26 @@ p{
 }
 main{
     display: flex;
+    min-height: 100vh;
     justify-content: center;
-}
-.conteudo-principal{
-    display: flex;
-    width: 1440px;
+    align-items: center;
 }
 .conteudo-principal .lista-imagens{
     display: flex;
-    padding: 129px 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-
+.conteudo-principal .lista-imagens .item-lista img{
+    width: 100%;
+}
 .conteudo-principal .lista-imagens .item-lista{
-    display: flex;
-    align-items: end;
-    padding-right: 20px;
+    position: relative;
+    width: 335px;
+    height: 431px;
 }
-
 .conteudo-principal .lista-imagens .info-imagens{
     position: absolute;
-    padding-bottom: 43px;
-    padding-left: 20px;
+    bottom: 40px;
+    left: 20px;
 }

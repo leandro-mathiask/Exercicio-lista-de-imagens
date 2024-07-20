@@ -1,15 +1,11 @@
-@media(max-width: 1430px){
-.conteudo-principal .lista-imagens{
-    padding: 45px 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.conteudo-principal .lista-imagens .item-lista{
-    padding: 0 0 5px 0;
+@media(max-width: 1440px){
+.conteudo-principal{
+    max-width: 900px;
+    margin: 30px 0;
 }
 }
 @media(max-width: 400px){
     html{
         overflow-x: hidden;
-    }
+}
 }
